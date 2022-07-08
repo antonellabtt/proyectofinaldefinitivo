@@ -1,0 +1,29 @@
+.barra {
+    a {
+      font-size: 2rem;
+    }
+    &__titulo {
+      font-family: brittany;
+      font-size: 3rem;
+      color: #293731;
+    transform: translateX(-11px);
+    }
+  }
+  
+  header nav ul {
+    
+    width: 100%;
+    li {
+      
+      width: 20%;
+      text-align: center;
+      font-family: "Montserrat", sans-serif;
+      font-size: 1rem;
+      .nav-link {
+        font-weight: bold;
+        font-size: 1rem;
+        text-transform: uppercase;
+      }
+    }
+  }
+  

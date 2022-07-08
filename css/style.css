@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@font-face {
+  font-family: "brittany";
+  src: url("../fonts/BrittanySignature.ttf"); }
+
+body {
+  background-image: url("../multimedia/backgroundproyectofinal.png");
+  background-size: contain;
+  border: solid #293731 4.5px; }
+
+.barra a {
+  font-size: 2rem; }
+
+.barra__titulo {
+  font-family: brittany;
+  font-size: 3rem;
+  color: #293731;
+  transform: translateX(-11px); }
+
+header nav ul {
+  width: 100%; }
+  header nav ul li {
+    width: 20%;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem; }
+    header nav ul li .nav-link {
+      font-weight: bold;
+      font-size: 1rem;
+      text-transform: uppercase; }
