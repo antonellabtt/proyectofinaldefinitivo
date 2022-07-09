@@ -1,0 +1,39 @@
+.pie {
+  font-size: 1rem;
+  margin-top: 6rem;
+  &__imagen {
+    @extend .img_responsive;
+    max-width: 6em;
+    margin-left: 1em;
+  }
+  &__textos {
+    text-align: center;
+    &__frase {
+      font-family: brittany;
+    }
+    &__firma {
+      font-family: "Montserrat", sans-serif;
+      font-size: 0.8em;
+      margin-top: 1.5em;
+    }
+  }
+  &__redes {
+    margin-right: 1em;
+    & a{
+        &:nth-child(1){
+            margin-right: 2em;
+        }
+        &:nth-child(2){
+            margin-right: 2em;
+        }
+    }
+    &__iconos {
+        font-size: 2em;
+        color:  black;
+
+    }
+    &__iconos:hover {
+        color: #434343;
+    }
+  }
+}

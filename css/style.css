@@ -4,10 +4,33 @@
   font-family: "brittany";
   src: url("../fonts/BrittanySignature.ttf"); }
 
+.img_responsive, .pie__imagen, .inicio__imagen, .frase__imagen {
+  width: 100%;
+  height: auto; }
+
 body {
-  background-image: url("../multimedia/backgroundproyectofinal.png");
-  background-size: contain;
+  /*background-image: url("../multimedia/backgroundproyectofinal.png");
+    background-size:contain;*/
+  width: 100%;
   border: solid #293731 4.5px; }
+
+.fondo1 {
+  background-color: white;
+  height: 100%;
+  width: 50%;
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0; }
+
+.fondo2 {
+  background-color: #f9f5f0;
+  height: 100%;
+  width: 50%;
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 50%; }
 
 .barra a {
   font-size: 2rem; }
@@ -29,3 +52,88 @@ header nav ul {
       font-weight: bold;
       font-size: 1rem;
       text-transform: uppercase; }
+
+.pie {
+  font-size: 1rem;
+  margin-top: 6rem; }
+  .pie__imagen {
+    max-width: 6em;
+    margin-left: 1em; }
+  .pie__textos {
+    text-align: center; }
+    .pie__textos__frase {
+      font-family: brittany; }
+    .pie__textos__firma {
+      font-family: "Montserrat", sans-serif;
+      font-size: 0.8em;
+      margin-top: 1.5em; }
+  .pie__redes {
+    margin-right: 1em; }
+    .pie__redes a:nth-child(1) {
+      margin-right: 2em; }
+    .pie__redes a:nth-child(2) {
+      margin-right: 2em; }
+    .pie__redes__iconos {
+      font-size: 2em;
+      color: black; }
+    .pie__redes__iconos:hover {
+      color: #434343; }
+
+.inicio {
+  margin-top: 5rem;
+  font-size: 1rem; }
+  .inicio__parrafo {
+    margin-top: 4em;
+    padding-left: 3em;
+    font-size: 1em; }
+    .inicio__parrafo__lineas {
+      font-family: 'Yeseva One', cursive;
+      font-size: 2em;
+      text-align: right;
+      margin-right: 6rem; }
+  .inicio__imagen {
+    max-width: 40rem;
+    margin-right: 5em; }
+
+.frase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 5rem 2rem;
+  font-size: 1rem; }
+  .frase__imagen {
+    max-width: 4em; }
+  .frase__titulo {
+    margin-top: 2em;
+    font-family: "Montserrat", sans-serif; }
+  .frase__subtitulo {
+    font-family: "Montserrat", sans-serif; }
+  .frase__parrafo {
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
+    font-size: 1.5em;
+    width: 75%;
+    color: #434343;
+    margin-bottom: 2.5em; }
+
+.materiales__hilos {
+  font-size: 1rem; }
+  .materiales__hilos__carousel {
+    width: 25%; }
+  .materiales__hilos__texto {
+    padding-left: 3em;
+    width: 50%; }
+    .materiales__hilos__texto__titulo {
+      font-family: "Montserrat", sans-serif;
+      font-size: 1em; }
+    .materiales__hilos__texto__linea {
+      width: 0.05rem;
+      height: 4rem;
+      background-color: #434343;
+      margin-left: 0.5em; }
+    .materiales__hilos__texto__descripcion {
+      font-family: 'Yeseva One', cursive;
+      font-size: 1.2em;
+      margin-top: 1em; }
