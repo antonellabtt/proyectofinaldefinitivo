@@ -181,3 +181,24 @@ header nav ul {
       font-family: "Yeseva One", cursive;
       font-size: 2em;
       margin-top: 1em; }
+
+.nosotros {
+  margin-top: 5rem;
+  font-size: 1rem; }
+  .nosotros__descripcion {
+    padding-right: 10em;
+    padding-left: 7em;
+    padding-top: 3em; }
+    .nosotros__descripcion__linea {
+      width: 15em;
+      height: 1px;
+      background-color: #434343;
+      position: absolute;
+      transform: translate(-100%, 2em); }
+    .nosotros__descripcion__titulo {
+      font-family: "Yeseva One", cursive;
+      font-size: 3em;
+      z-index: 20; }
+    .nosotros__descripcion__texto {
+      font-family: "Montserrat", sans-serif;
+      font-size: 1.5em; }
