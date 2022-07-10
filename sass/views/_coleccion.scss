@@ -6,12 +6,38 @@
     align-items: center;
     &__frase{
         font-family: 'Yeseva One', cursive;
-        font-size: 1.5em;
+        font-size: 2.5em;
 
     }
     &__linea{
         width: 0.05rem;
-        height: 4rem;
+        height: 6rem;
         background-color: #434343;
+    }
+}
+.imgcoleccion{
+    font-size: 1rem;
+    gap: 5%;
+    padding: 0% 10%;
+    &__producto{
+        margin-top: 5rem;
+        max-width: 30rem;
+        &__img{
+        @extend .img_responsive;
+        max-width: 30rem;
+        
+        }
+        &__num{
+            font-family: 'Yeseva One', cursive;
+            font-size: 5em;
+            color: #434343;
+            position:absolute;
+            transform: translate(200%, -50%);
+        }
+        &__descripcion{
+           font-size: 1.6em;
+           font-family: "Montserrat", sans-serif;
+        }
+
     }
 }

@@ -4,9 +4,16 @@
   font-family: "brittany";
   src: url("../fonts/BrittanySignature.ttf"); }
 
-.img_responsive, .pie__imagen, .inicio__imagen, .frase__imagen {
+.img_responsive, .pie__imagen, .imgcoleccion__producto__img, .inicio__imagen, .frase__imagen {
   width: 100%;
   height: auto; }
+
+html {
+  font-size: 62.5%; }
+
+* {
+  margin: 0;
+  padding: 0; }
 
 body {
   /*background-image: url("../multimedia/backgroundproyectofinal.png");
@@ -33,11 +40,11 @@ body {
   left: 50%; }
 
 .barra a {
-  font-size: 2rem; }
+  font-size: 3rem; }
 
 .barra__titulo {
   font-family: brittany;
-  font-size: 3rem;
+  font-size: 5rem;
   color: #293731;
   transform: translateX(-11px); }
 
@@ -50,23 +57,23 @@ header nav ul {
     font-size: 1rem; }
     header nav ul li .nav-link {
       font-weight: bold;
-      font-size: 1rem;
+      font-size: 1.5rem;
       text-transform: uppercase; }
 
 .pie {
   font-size: 1rem;
-  margin-top: 6rem; }
+  margin-top: 10rem; }
   .pie__imagen {
-    max-width: 6em;
+    max-width: 8em;
     margin-left: 1em; }
   .pie__textos {
-    text-align: center;
-    padding-left: 7%; }
+    text-align: center; }
     .pie__textos__frase {
-      font-family: brittany; }
+      font-family: brittany;
+      font-size: 3em; }
     .pie__textos__firma {
       font-family: "Montserrat", sans-serif;
-      font-size: 0.8em;
+      font-size: 1.2em;
       margin-top: 1.5em; }
   .pie__redes {
     margin-right: 1em; }
@@ -75,7 +82,7 @@ header nav ul {
     .pie__redes a:nth-child(2) {
       margin-right: 2em; }
     .pie__redes__iconos {
-      font-size: 2em;
+      font-size: 3em;
       color: black; }
     .pie__redes__iconos:hover {
       color: #434343; }
@@ -88,27 +95,46 @@ header nav ul {
   align-items: center; }
   .textocoleccion__frase {
     font-family: 'Yeseva One', cursive;
-    font-size: 1.5em; }
+    font-size: 2.5em; }
   .textocoleccion__linea {
     width: 0.05rem;
-    height: 4rem;
+    height: 6rem;
     background-color: #434343; }
+
+.imgcoleccion {
+  font-size: 1rem;
+  gap: 5%;
+  padding: 0% 10%; }
+  .imgcoleccion__producto {
+    margin-top: 5rem;
+    max-width: 30rem; }
+    .imgcoleccion__producto__img {
+      max-width: 30rem; }
+    .imgcoleccion__producto__num {
+      font-family: 'Yeseva One', cursive;
+      font-size: 5em;
+      color: #434343;
+      position: absolute;
+      transform: translate(200%, -50%); }
+    .imgcoleccion__producto__descripcion {
+      font-size: 1.6em;
+      font-family: "Montserrat", sans-serif; }
 
 .inicio {
   margin-top: 5rem;
   font-size: 1rem; }
   .inicio__parrafo {
     margin-top: 4em;
-    padding-left: 3em;
-    font-size: 1em; }
+    padding-left: 7em;
+    font-size: 1.5em; }
     .inicio__parrafo__lineas {
-      font-family: 'Yeseva One', cursive;
+      font-family: "Yeseva One", cursive;
       font-size: 2em;
       text-align: right;
       margin-right: 6rem; }
   .inicio__imagen {
-    max-width: 40rem;
-    margin-right: 5em; }
+    max-width: 50rem;
+    margin-right: 10em; }
 
 .frase {
   display: flex;
@@ -119,21 +145,24 @@ header nav ul {
   margin: 5rem 2rem;
   font-size: 1rem; }
   .frase__imagen {
-    max-width: 4em; }
+    max-width: 6em; }
   .frase__titulo {
+    font-size: 3em;
     margin-top: 2em;
     font-family: "Montserrat", sans-serif; }
   .frase__subtitulo {
+    font-size: 1.5em;
     font-family: "Montserrat", sans-serif; }
   .frase__parrafo {
-    font-family: 'Yeseva One', cursive;
+    font-family: "Yeseva One", cursive;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2.5em;
     width: 75%;
     color: #434343;
     margin-bottom: 2.5em; }
 
 .materiales__hilos {
+  margin-top: 10rem;
   font-size: 1rem; }
   .materiales__hilos__carousel {
     width: 25%; }
@@ -142,13 +171,13 @@ header nav ul {
     width: 50%; }
     .materiales__hilos__texto__titulo {
       font-family: "Montserrat", sans-serif;
-      font-size: 1em; }
+      font-size: 1.5em; }
     .materiales__hilos__texto__linea {
       width: 0.05rem;
-      height: 4rem;
+      height: 6rem;
       background-color: #434343;
       margin-left: 0.5em; }
     .materiales__hilos__texto__descripcion {
-      font-family: 'Yeseva One', cursive;
-      font-size: 1.2em;
+      font-family: "Yeseva One", cursive;
+      font-size: 2em;
       margin-top: 1em; }

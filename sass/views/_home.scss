@@ -1,82 +1,80 @@
-.inicio{
-    margin-top: 5rem;
-    font-size: 1rem;
+.inicio {
+  margin-top: 5rem;
+  font-size: 1rem;
 
-    &__parrafo {
-        margin-top: 4em;
-        padding-left:3em;
-        font-size: 1em;
-        &__lineas{
-       
-        font-family: 'Yeseva One', cursive;
-        font-size: 2em;
-        text-align: right;
-        margin-right: 6rem;} 
-      }
-      &__imagen{
-        @extend .img_responsive;
-        max-width: 40rem;
-       margin-right: 5em;
-
-      }
+  &__parrafo {
+    margin-top: 4em;
+    padding-left: 7em;
+    font-size: 1.5em;
+    &__lineas {
+      font-family: "Yeseva One", cursive;
+      font-size: 2em;
+      text-align: right;
+      margin-right: 6rem;
+    }
+  }
+  &__imagen {
+    @extend .img_responsive;
+    max-width: 50rem;
+    margin-right: 10em;
+  }
 }
-.frase{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    margin: 5rem 2rem;
-    font-size: 1rem;
-    &__imagen{
-        @extend .img_responsive;
-        max-width: 4em;
-    
-
-    }
-    &__titulo{
-margin-top: 2em;
-font-family: "Montserrat", sans-serif;
-    }
-    &__subtitulo{
-        font-family: "Montserrat", sans-serif;
-    }
-    &__parrafo{
-        font-family: 'Yeseva One', cursive;
-        text-align: center;
-        font-size: 1.5em;
-        width: 75%;
-        color: #434343;
-        margin-bottom: 2.5em;
-    }
+.frase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 5rem 2rem;
+  font-size: 1rem;
+  &__imagen {
+    @extend .img_responsive;
+    max-width: 6em;
+  }
+  &__titulo {
+    font-size: 3em;
+    margin-top: 2em;
+    font-family: "Montserrat", sans-serif;
+  }
+  &__subtitulo {
+    font-size: 1.5em;
+    font-family: "Montserrat", sans-serif;
+  }
+  &__parrafo {
+    font-family: "Yeseva One", cursive;
+    text-align: center;
+    font-size: 2.5em;
+    width: 75%;
+    color: #434343;
+    margin-bottom: 2.5em;
+  }
 }
-.materiales__hilos{
-    font-size: 1rem;
-&__carousel{
+.materiales__hilos {
+    margin-top: 10rem;
+  font-size: 1rem;
+  &__carousel {
     width: 25%;
-}
-&__texto{
+  }
+  &__texto {
     padding-left: 3em;
     width: 50%;
-    &__titulo{
-        font-family: "Montserrat", sans-serif;
-        font-size: 1em;
+    &__titulo {
+      font-family: "Montserrat", sans-serif;
+      font-size: 1.5em;
     }
-    &__linea{ 
-        width: 0.05rem;
-        height: 4rem;
-        background-color: #434343;
-        margin-left: 0.5em;
+    &__linea {
+      width: 0.05rem;
+      height: 6rem;
+      background-color: #434343;
+      margin-left: 0.5em;
     }
-    &__descripcion{
-        font-family: 'Yeseva One', cursive;
-        font-size: 1.2em;
-        margin-top: 1em;
+    &__descripcion {
+      font-family: "Yeseva One", cursive;
+      font-size: 2em;
+      margin-top: 1em;
     }
-}
+  }
 }
 
-
-@media screen and  (max-width: 768px) {
-   
+@media screen and (max-width: 768px) {
 }

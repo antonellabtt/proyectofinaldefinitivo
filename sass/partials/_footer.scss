@@ -1,20 +1,21 @@
 .pie {
   font-size: 1rem;
-  margin-top: 6rem;
+  margin-top: 10rem;
   &__imagen {
     @extend .img_responsive;
-    max-width: 6em;
+    max-width: 8em;
     margin-left: 1em;
   }
   &__textos {
     text-align: center;
-    padding-left: 7%;
+    
     &__frase {
       font-family: brittany;
+      font-size: 3em;
     }
     &__firma {
       font-family: "Montserrat", sans-serif;
-      font-size: 0.8em;
+      font-size: 1.2em;
       margin-top: 1.5em;
     }
   }
@@ -29,7 +30,7 @@
         }
     }
     &__iconos {
-        font-size: 2em;
+        font-size: 3em;
         color:  black;
 
     }
