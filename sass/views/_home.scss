@@ -15,7 +15,7 @@
   }
   &__imagen {
     @extend .img_responsive;
-    max-width: 50rem;
+    max-width: 50em;
     margin-right: 10em;
   }
 }
@@ -50,7 +50,7 @@
   }
 }
 .materiales__hilos {
-    margin-top: 10rem;
+  margin-top: 10rem;
   font-size: 1rem;
   &__carousel {
     width: 25%;
@@ -76,5 +76,75 @@
   }
 }
 
+@media screen and (max-width: 992px) {
+  .inicio {
+    font-size: 0.8rem;
+
+    &__parrafo {
+      &__lineas {
+        margin-right: 4rem;
+      }
+    }
+    &__imagen {
+      // max-width: 40em;
+      margin-right: 10em;
+    }
+  }
+  .frase {
+    font-size: 0.8rem;
+  }
+  .materiales__hilos {
+    margin-top: 6rem;
+    font-size: 0.8rem;
+  }
+}
 @media screen and (max-width: 768px) {
+  .inicio {
+    margin-top: 1rem;
+    &__imagen {
+      max-width: 35em;
+      margin-right: 10em;
+    }
+  }
+
+  .materiales__hilos {
+    &__carousel {
+      width: 40%;
+    }
+    &__texto {
+      margin-top: 2em;
+      padding-left: 0em;
+    }
+  }
+}
+@media screen and (max-width: 576px) {
+  .inicio {
+    font-size: 0.6rem;
+
+    &__imagen {
+      max-width: 30em;
+      margin-right: 10em;
+    }
+  }
+  .frase {
+    margin: 3rem 2rem;
+    font-size: 0.6rem;
+    &__imagen {
+      max-width: 6em;
+    }
+  }
+  .materiales__hilos {
+    margin-top: 10rem;
+    font-size: 0.7rem;
+
+    &__texto {
+      &__titulo {
+        font-size: 1.5em;
+      }
+
+      &__descripcion {
+        font-size: 1.5em;
+      }
+    }
+  }
 }
